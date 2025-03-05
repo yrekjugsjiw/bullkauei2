@@ -79,7 +79,7 @@ function doAttracted(refUser){
 
   Bot.sendMessageToChatWithId(
     refUser.telegramid,
-    "🎉 На твой баланс зачислено 25₽ за приглашение реферала. " 
+    "🎉 Теперь ты будешь получать 30% от покупок твоего реферала. " 
   );
 }
 
@@ -95,7 +95,3 @@ let trackOptions = {
 }
 
 RefLib.track(trackOptions);
-
-
-
-

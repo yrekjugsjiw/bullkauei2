@@ -4,14 +4,8 @@
   need_reply: false
   auto_retry_time: 
   folder: 
-
-  <<ANSWER
-
-  ANSWER
-
-  <<KEYBOARD
-
-  KEYBOARD
+  answer: 
+  keyboard: 
   aliases: 🤖 о боте 🤖
   group: 
 CMD*/
@@ -39,6 +33,3 @@ message_id : message_id
 }
 
 //your bjs
-
-
-

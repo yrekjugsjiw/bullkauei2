@@ -1,5 +1,5 @@
 /*CMD
-  command: /crplay
+  command: /magaz
   help: 
   need_reply: false
   auto_retry_time: 
@@ -16,14 +16,18 @@
   group: 
 CMD*/
 
+ 
 var buttons = [
 [
-  { title: "👑 Оформить подписку", command: "/podpis" }]
-    ,
-  [
-  { title: "⬑ Назад", command: "/platvalu" }]
+{ title: "🎫 Оформить BULL VIP", command: "/podpis" }]
+,
+[
+  { title: "🚀 Купить сигналы", command: "/prog" }]
+  ,
+[
+ { title: "<- Назад", command: "/maine" }]
 ]
-Bot.sendInlineKeyboard(buttons, "🚫 Доступ к VIP прогнозам доступен при активной подписки *BULL VIP*")
+Bot.sendInlineKeyboard(buttons, "Выберите действие 👇")
 if(request.data){
 var message_id = request.message.message_id
 var chat_id = request.message.chat.id

@@ -5,10 +5,7 @@
   auto_retry_time: 
   folder: 
   answer: Режим на тех работах, попробуйте позже
-
-  <<KEYBOARD
-
-  KEYBOARD
+  keyboard: 
   aliases: 
   group: 
 CMD*/

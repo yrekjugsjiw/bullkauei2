@@ -11,10 +11,7 @@ Telegram - @bulldropsoft
 TikTok - пока нет.
 YouTube - пока нет.
   ANSWER
-
-  <<KEYBOARD
-
-  KEYBOARD
+  keyboard: 
   aliases: 
   group: 
 CMD*/
@@ -32,5 +29,3 @@ message_id : message_id
 }
 
 //your bjs
-
-

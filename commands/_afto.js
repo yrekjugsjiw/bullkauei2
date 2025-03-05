@@ -4,14 +4,8 @@
   need_reply: false
   auto_retry_time: 
   folder: 
-
-  <<ANSWER
-
-  ANSWER
-
-  <<KEYBOARD
-
-  KEYBOARD
+  answer: 
+  keyboard: 
   aliases: 
   group: 
 CMD*/
@@ -40,4 +34,3 @@ msg += "*User* : [" + msg_details[i].name + " " + msg_details[i].last_name + "](
 
 Bot.setProperty("support_msg_seen",msg_count,"integer")
 Bot.sendMessage(msg)
-

@@ -5,10 +5,7 @@
   auto_retry_time: 
   folder: 
   answer: Бесплатный режим временно отключен
-
-  <<KEYBOARD
-
-  KEYBOARD
+  keyboard: 
   aliases: 
   group: 
 CMD*/

@@ -22,6 +22,6 @@ var admin_id = "5868075152"
 if(user.telegramid!=admin_id){return}
 
 var option = {reply_to_message_id: options.message_id}
-Bot.sendMessageToChatWithId(options.userId,"Ответ от администратора:\n" + message, option)
+Bot.sendMessageToChatWithId(options.userId,"Действие от администратора:\n" + message, option)
 
 Bot.sendMessage("отправлено " + options.user_link)
