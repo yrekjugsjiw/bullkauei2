@@ -39,6 +39,3 @@ message_id : message_id
 }
 
 //your bjs
-
-
-

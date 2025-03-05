@@ -4,14 +4,8 @@
   need_reply: false
   auto_retry_time: 
   folder: 
-
-  <<ANSWER
-
-  ANSWER
-
-  <<KEYBOARD
-
-  KEYBOARD
+  answer: 
+  keyboard: 
   aliases: 
   group: 
 CMD*/
@@ -32,4 +26,3 @@ Bot.run({
 command: "/adminReply",
 options: {user_link: user_link,userId: msg_details[params].userId,message_id: msg_details[params].message_id}
 })
-

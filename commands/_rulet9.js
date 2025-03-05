@@ -44,13 +44,13 @@ function onWaiting(waitTime){
 [
   { title: "⬑ Назад", command: "/bonusi91" }]
 ]
-Bot.sendInlineKeyboard(buttons, "❗️Ты уже прокрутил ежедневную рулетку. Попробуй завтра. Осталось: " + waitTime + " секунд")
+Bot.sendInlineKeyboard(buttons, "❗️Ты уже прокрутил еженедельную рулетку. Попробуй через " + waitTime + " секунд")
 }
 
 Libs.CooldownLib.user.watch({
   // you need name for cooldown
   name: "TemBonusCooldown",
-  time: 86400, // cooldown time, 120 secs - 2 minute
+  time: 604801, // cooldown time, 120 secs - 2 minute
   onStarting: onStarting,
   onEnding: onEnding,
   onWaiting: onWaiting
@@ -67,5 +67,3 @@ message_id : message_id
 }
 
 //your bjs
-
-

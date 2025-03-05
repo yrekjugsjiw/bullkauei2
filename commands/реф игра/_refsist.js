@@ -1,9 +1,9 @@
 /*CMD
-  command: /fregg
+  command: /refsist
   help: 
   need_reply: false
   auto_retry_time: 
-  folder: 
+  folder: реф игра
   answer: 
   keyboard: 
   aliases: 
@@ -12,16 +12,13 @@ CMD*/
 
 var buttons = [
 [
-  { title: "Колесо", command: "/gamefr" }]
-  ,
-  [
-  { title: "❓️Как работает FREE режим", command: "/helpfr" }]
+  { title: "🔗 Моя ссылка", command: "/mylink" },
+  { title: "👥 Мои рефералы", command: "/reflist" }]
     ,
   [
-  { title: "⬑ Назад", command: "/game6" }]
+  { title: "⬑ Назад", command: "/bonusi91" }]
 ]
-Bot.sendInlineKeyboard(buttons, "Выберите режим👇")
-
+Bot.sendInlineKeyboard(buttons, "Выберите функцию👇")
 if(request.data){
 var message_id = request.message.message_id
 var chat_id = request.message.chat.id

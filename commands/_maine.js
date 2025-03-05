@@ -32,11 +32,11 @@ var buttons = [
 ,
 [
   { title: "💰 Бонусы", command: "/bonusi91" },
-  { title: "❓️ Помощь", command: "/help" }]
+  { title: "🛍 Магазин", command: "/magaz" }]
   ,
   [
   { title: "🙍‍♂️ Поддержка", command: "/support33" },
-  { title: "🤖 О Боте", command: "/obote88" }]
+  { title: "❓️ Помощь", command: "/help" }]
 ]
 
 Bot.sendInlineKeyboard(buttons, "Выбери функцию ниже👇")
@@ -53,4 +53,3 @@ message_id : message_id
 }
 
 //your bjs
-

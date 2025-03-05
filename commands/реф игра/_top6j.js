@@ -1,9 +1,9 @@
 /*CMD
-  command: /test3
+  command: /top6j
   help: 
   need_reply: false
   auto_retry_time: 
-  folder: 
+  folder: реф игра
 
   <<ANSWER
 
@@ -34,7 +34,7 @@ for(var ind in items){
   prop = items[ind]
   msg = msg + "\n" +
     String( parseInt(ind) + 1 ) + ". " +
-    Libs.commonLib.getNameFor() + ": 👨" +
+    Libs.commonLib.getLinkFor(prop.user) + ": 👨" +
     String(prop.value)
 }
 

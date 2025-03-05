@@ -3,15 +3,9 @@
   help: 
   need_reply: false
   auto_retry_time: 
-  folder: реф игра 
-
-  <<ANSWER
-
-  ANSWER
-
-  <<KEYBOARD
-
-  KEYBOARD
+  folder: реф игра
+  answer: 
+  keyboard: 
   aliases: 
   group: 
 CMD*/
@@ -29,5 +23,3 @@ message_id : message_id
 }
 
 //your bjs
-
-

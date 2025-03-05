@@ -9,10 +9,7 @@
 Напиши свой вопрос.
 (Медиа, файлы не поддерживается)
   ANSWER
-
-  <<KEYBOARD
-
-  KEYBOARD
+  keyboard: 
   aliases: 
   group: 
 CMD*/
@@ -60,5 +57,3 @@ message_id : message_id
 }
 
 //your bjs
-
-
